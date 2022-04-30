@@ -1,0 +1,180 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0 auto;
+}
+
+
+/* Basis Responsive indeling devices */
+
+
+/* smallere telefoon 0-480px */
+
+@media screen and (max-width: 480px) {
+    body {
+        overflow: hidden;
+    }
+    body {
+        background-color: #92C5EB;
+    }
+    body>main>img {
+        margin-left: 20vw;
+        border-radius: 25%;
+        margin-top: 2vh;
+    }
+    main.show-small {
+        max-width: 98vw;
+    }
+    body>header {
+        background-color: green;
+    }
+    header>h1 {
+        color: #8B0000;
+        text-align: center;
+    }
+    main>h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    body>main>section {
+        margin-top: 3vh;
+        display: flex;
+        column-gap: 4vw;
+        margin-left: 20vw;
+    }
+    body>main>section>article:nth-child(1) {
+        background-color: #8B0000;
+    }
+    body>main>section>article:nth-child(2) {
+        background-color: green;
+        height: 30px
+    }
+    body>main>section>article>p {
+        font-size: 20px;
+    }
+    #error {
+        display: none;
+    }
+    #waves>img {
+        width: 40vw;
+        margin-top: 15vh;
+        margin-right: 15vw;
+    }
+    #waves {
+        display: flex;
+    }
+    footer>h1 {
+        color: green;
+        text-align: center;
+    }
+    body>footer {
+        background-color: #8B0000;
+        height: 30vh;
+    }
+}
+
+
+/* Tablets en breedere telefoons min 481px and max 768px */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+    body {
+        background-color: #92C5EB;
+    }
+    body>main>img {
+        margin-left: 30vw;
+        border-radius: 25%;
+        margin-top: 2vh;
+    }
+    main.show-small {
+        max-width: 98vw;
+    }
+    body>header {
+        background-color: green;
+    }
+    header>h1 {
+        color: #8B0000;
+        text-align: center;
+    }
+    main>h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    body>main>section {
+        margin-top: 3vh;
+        display: flex;
+        column-gap: 4vw;
+        margin-left: 25vw;
+    }
+    body>main>section>article:nth-child(1) {
+        background-color: #8B0000;
+    }
+    body>main>section>article:nth-child(2) {
+        background-color: green;
+        height: 30px
+    }
+    body>main>section>article>p {
+        font-size: 25px;
+    }
+    #error {
+        display: none;
+    }
+    #waves>img {
+        width: 40vw;
+        margin-top: 15vh;
+        margin-right: 15vw;
+    }
+    #waves {
+        display: flex;
+    }
+    footer>h1 {
+        color: green;
+        text-align: center;
+    }
+    body>footer {
+        background-color: #8B0000;
+        height: 30vh;
+    }
+}
+
+
+/* Grotere tablets, laptop en smalle schermen min 769px and max 1279px */
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .show-small {
+        display: none;
+    }
+    #error {
+        display: block;
+        background-color: red;
+        margin-top: 50vh;
+    }
+    body {
+        background-color: black;
+    }
+    body>section {
+        display: none;
+    }
+}
+
+
+/* Grotere desktops en schermen min 1280px */
+
+@media screen and (min-width: 1280px) {
+    .show-small {
+        display: none
+    }
+    #error {
+        display: block;
+        background-color: red;
+        margin-top: 50vh;
+    }
+    body {
+        background-color: black;
+    }
+    body>section {
+        display: none;
+    }
+}
