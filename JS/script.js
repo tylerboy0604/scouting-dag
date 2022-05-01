@@ -12,14 +12,6 @@ const randomItem = ['cent van jaren 60', 'blauwe schroevendraaier', 'konijnen or
 
 
 
-function rngtext() {
-    let index = Math.floor(Math.random() * 1) + 1;
-    if (index == 1) {
-        document.getElementById('rng-text').innerHTML = 'norvicus bbq komt ook';
-    }
-}
-
-
 
 // window.onload = alert('alert: zorg ervoor dat niemand je ziet');
 
