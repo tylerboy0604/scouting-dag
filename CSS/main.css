@@ -47,7 +47,7 @@
     }
     body>main>section>article:nth-child(2) {
         background-color: green;
-        height: 30px
+        height: 56px
     }
     body>main>section>article>p {
         font-size: 20px;
@@ -58,7 +58,7 @@
     #waves>img {
         width: 40vw;
         margin-top: 15vh;
-        margin-right: 15vw;
+        margin-right: 20vw;
     }
     #waves {
         display: flex;
@@ -113,7 +113,7 @@
     }
     body>main>section>article:nth-child(2) {
         background-color: green;
-        height: 30px
+        height: 56px
     }
     body>main>section>article>p {
         font-size: 25px;
@@ -121,22 +121,67 @@
     #error {
         display: none;
     }
-    #waves>img {
-        width: 40vw;
-        margin-top: 15vh;
-        margin-right: 15vw;
+}
+
+@-webkit-keyframes glide {
+    from {
+        left: 0px;
+        top: 0px;
     }
-    #waves {
-        display: flex;
+    to {
+        left: 0px;
+        top: 20px;
     }
-    footer>h1 {
-        color: green;
-        text-align: center;
+}
+
+@-webkit-keyframes glide2 {
+    from {
+        left: 0px;
+        top: 20px;
     }
-    body>footer {
-        background-color: #8B0000;
-        height: 30vh;
+    to {
+        left: 0px;
+        top: 0px;
     }
+}
+
+#waves>img:nth-child(1) {
+    width: 40vw;
+    margin-top: 15vh;
+    margin-right: 5vw;
+    position: relative;
+    -webkit-animation: glide 2s ease-in-out alternate infinite;
+}
+
+#waves>img:nth-child(3) {
+    width: 40vw;
+    margin-top: 15vh;
+    margin-right: 20vw;
+    position: relative;
+    -webkit-animation: glide 2s ease-in-out alternate infinite;
+}
+
+#waves>img:nth-child(2) {
+    width: 10vw;
+    height: 15vw;
+    margin-top: 15vh;
+    margin-right: 5vw;
+    position: relative;
+    -webkit-animation: glide2 2s ease-in-out alternate infinite;
+}
+
+#waves {
+    display: flex;
+}
+
+footer>h1 {
+    color: green;
+    text-align: center;
+}
+
+body>footer {
+    background-color: #8B0000;
+    height: 30vh;
 }
 
 
@@ -154,7 +199,7 @@
     body {
         background-color: black;
     }
-    body>section {
+    body>section>img {
         display: none;
     }
 }
@@ -174,7 +219,7 @@
     body {
         background-color: black;
     }
-    body>section {
+    body>section>img {
         display: none;
     }
 }
