@@ -19,6 +19,9 @@
         border-radius: 25%;
         margin-top: 2vh;
     }
+    main {
+        min-height: 65vh;
+    }
     main.show-small {
         max-width: 98vw;
     }
@@ -76,6 +79,9 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
     body {
         background-color: #92C5EB;
+    }
+    main {
+        min-height: 59vh;
     }
     body>main>img {
         margin-left: 30vw;
