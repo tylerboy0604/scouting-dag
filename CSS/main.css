@@ -12,9 +12,6 @@
 
 @media screen and (max-width: 480px) {
     body {
-        overflow: hidden;
-    }
-    body {
         background-color: #92C5EB;
     }
     body>main>img {
