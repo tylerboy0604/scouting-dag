@@ -42,15 +42,16 @@
         column-gap: 4vw;
         margin-left: 20vw;
     }
-    body>main>section>article:nth-child(1) {
+    body>main>section>p:nth-child(1) {
         background-color: #8B0000;
     }
-    body>main>section>article:nth-child(2) {
+    body>main>section>p:nth-child(2) {
         background-color: green;
         height: 56px
     }
-    body>main>section>article>p {
+    body>main>section>p {
         font-size: 20px;
+        text-align: center;
     }
     #error {
         display: none;
