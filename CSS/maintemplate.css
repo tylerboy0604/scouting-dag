@@ -11,12 +11,6 @@
 /* smallere telefoon 0-480px */
 
 @media screen and (max-width: 480px) {
-    body>p {
-        display: none;
-    }
-    #error {
-        display: none;
-    }
     body {
         background-color: #92C5EB;
     }
@@ -42,32 +36,7 @@
     }
     body>footer {
         background-color: #8B0000;
-        height: 5.7vh;
-    }
-    main>h1 {
-        text-align: center;
-    }
-    main>p {
-        background-color: green;
-        margin-top: 5vh;
-        margin-left: 30vw;
-        width: 40vw;
-        color: #8B0000;
-    }
-    main>ul {
-        margin-top: 5vh;
-        margin-left: 33vw;
-    }
-    main>ul>li::marker {
-        content: 'item ' counter(list-item) ': ';
-        color: #8B0000;
-        transition: color 5s;
-    }
-    main>img {
-        width: 50vw;
-        margin-left: 25vw;
-        margin-top: 10vh;
-        border-radius: 25%;
+        height: 30vh;
     }
 }
 
@@ -75,12 +44,6 @@
 /* Tablets en breedere telefoons min 481px and max 768px */
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    #error {
-        display: none;
-    }
-    body>p {
-        display: none;
-    }
     body {
         background-color: #92C5EB;
     }
@@ -100,42 +63,19 @@
     body>main>section>article>p {
         font-size: 25px;
     }
-    footer>h1 {
-        color: green;
-        text-align: center;
-    }
-    body>footer {
-        background-color: #8B0000;
-        height: 5.6vh;
-    }
-    main>h1 {
-        text-align: center;
-    }
-    main>p {
-        background-color: green;
-        margin-top: 5vh;
-        margin-left: 30vw;
-        width: 40vw;
-        color: #8B0000;
-    }
-    main>ul {
-        margin-top: 5vh;
-        margin-left: 33vw;
-    }
-    main>ul>li::marker {
-        content: 'item ' counter(list-item) ': ';
-        color: #8B0000;
-        transition: color 5s;
-    }
-    main>img {
-        width: 50vw;
-        margin-left: 25vw;
-        margin-top: 10vh;
-        border-radius: 25%;
-    }
     #error {
         display: none;
     }
+}
+
+footer>h1 {
+    color: green;
+    text-align: center;
+}
+
+body>footer {
+    background-color: #8B0000;
+    height: 5.6vh;
 }
 
 
@@ -156,9 +96,6 @@
     body>section>img {
         display: none;
     }
-    main {
-        display: none;
-    }
 }
 
 
@@ -167,9 +104,6 @@
 @media screen and (min-width: 1280px) {
     .show-small {
         display: none
-    }
-    main {
-        display: none;
     }
     #error {
         display: block;
