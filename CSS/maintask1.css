@@ -14,9 +14,6 @@
     body>p {
         display: none;
     }
-    #error {
-        display: none;
-    }
     body {
         background-color: #92C5EB;
     }
@@ -75,9 +72,6 @@
 /* Tablets en breedere telefoons min 481px and max 768px */
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    #error {
-        display: none;
-    }
     body>p {
         display: none;
     }
@@ -132,9 +126,6 @@
         margin-left: 25vw;
         margin-top: 10vh;
         border-radius: 25%;
-    }
-    #error {
-        display: none;
     }
 }
 
