@@ -18,7 +18,7 @@
         background-color: #92C5EB;
     }
     main {
-        min-height: 88.9vh;
+        min-height: 89.9vh;
     }
     main.show-small {
         max-width: 98vw;
@@ -72,6 +72,10 @@
 /* Tablets en breedere telefoons min 481px and max 768px */
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    #error {
+        display: none;
+    }
+    
     body>p {
         display: none;
     }
@@ -79,7 +83,7 @@
         background-color: #92C5EB;
     }
     main {
-        min-height: 59vh;
+        min-height: 89.9vh;
     }
     main.show-small {
         max-width: 98vw;
