@@ -10,7 +10,12 @@ const randomItem = ['cent van jaren 60', 'blauwe schroevendraaier', 'konijnen or
 
 
 
-
+function chanceImage() {
+    let chance = Math.floor(Math.random() * 10) + 1;
+    if (chance == 1) {
+        document.getElementById('changeImage').src = 'IMG/sailboat-chance.png';
+    }
+}
 
 
 
@@ -22,7 +27,7 @@ function randomitemcalc() {
     document.getElementById('random-item').innerHTML = item;
 }
 
-
+window.addEventListener('load', chanceImage);
 
 window.addEventListener('load', randomitemcalc)
 
