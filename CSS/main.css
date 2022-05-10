@@ -148,6 +148,7 @@
 
 #waves>img:nth-child(1) {
     width: 40vw;
+    height: 15vh;
     margin-top: 15vh;
     margin-right: 5vw;
     position: relative;
