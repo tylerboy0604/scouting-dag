@@ -13,7 +13,6 @@ const randomItem = ['cent van jaren 60', 'blauwe schroevendraaier', 'konijnen or
 
 
 
-// window.onload = alert('alert: zorg ervoor dat niemand je ziet');
 
 
 function randomitemcalc() {
