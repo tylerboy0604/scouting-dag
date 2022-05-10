@@ -25,6 +25,6 @@ function randomitemcalc() {
 
 
 
-window.onload = randomitemcalc;
+window.addEventListener('load', randomitemcalc)
 
 console.log(randomItem.length);
