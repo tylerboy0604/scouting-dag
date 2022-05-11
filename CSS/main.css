@@ -116,6 +116,13 @@
         background-color: green;
         height: 56px
     }
+        body>main>section>p:nth-child(1) {
+            background-color: #8B0000;
+        }
+        body>main>section>p:nth-child(2) {
+            background-color: green;
+            height: 56px
+    }
     body>main>section>article>p {
         font-size: 25px;
     }
