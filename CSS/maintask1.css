@@ -150,7 +150,9 @@
     #error {
         display: block;
         background-color: red;
-        margin-top: 50vh;
+        margin-top: 45vh;
+        text-align: center;
+        font-size: 2vw;
     }
     body {
         background-color: black;
@@ -176,7 +178,9 @@
     #error {
         display: block;
         background-color: red;
-        margin-top: 50vh;
+        margin-top: 45vh;
+        text-align: center;
+        font-size: 2vw;
     }
     body {
         background-color: black;
