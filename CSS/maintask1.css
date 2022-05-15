@@ -18,7 +18,13 @@
         background-color: #92C5EB;
     }
     main {
-        min-height: 89.9vh;
+        min-height: 90vh;
+    }
+    main>section {
+        background-color: green;
+        margin-right: 30vw;
+        margin-left: 30vw;
+        border-radius: 5%;
     }
     main.show-small {
         max-width: 98vw;
@@ -50,12 +56,14 @@
         margin-left: 30vw;
         width: 40vw;
         color: #8B0000;
+        border-radius: 5%;
     }
-    main>ul {
+    main>section>ul {
         margin-top: 5vh;
-        margin-left: 33vw;
+        margin-left: 3vw;
+        /* text-align: center; */
     }
-    main>ul>li::marker {
+    main>section>ul>li::marker {
         content: 'item ' counter(list-item) ': ';
         color: #8B0000;
         transition: color 5s;
@@ -75,7 +83,6 @@
     #error {
         display: none;
     }
-    
     body>p {
         display: none;
     }
