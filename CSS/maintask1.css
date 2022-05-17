@@ -128,7 +128,7 @@
         margin-left: 33vw;
     }
     main>ul>li::marker {
-        content: 'item ' counter(list-item) ': ';
+        content: counter(list-item);
         color: #8B0000;
         transition: color 5s;
     }
