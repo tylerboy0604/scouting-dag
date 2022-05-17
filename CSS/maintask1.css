@@ -66,7 +66,6 @@
     main>section>ul>li::marker {
         content: counter(list-item);
         color: #8B0000;
-        transition: color 5s;
     }
     main>img {
         width: 65vw;
@@ -127,16 +126,22 @@
         margin-top: 5vh;
         margin-left: 33vw;
     }
-    main>ul>li::marker {
+    main>section>ul>li::marker {
         content: counter(list-item);
         color: #8B0000;
-        transition: color 5s;
     }
     main>img {
         width: 60vw;
         margin-left: 20vw;
         margin-top: 10vh;
         border-radius: 25%;
+    }
+    main>section {
+        background-color: green;
+        margin-right: 30vw;
+        margin-left: 30vw;
+        margin-top: 2vh;
+        border-radius: 5%;
     }
 }
 
