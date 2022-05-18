@@ -73,6 +73,17 @@
         background-color: #8B0000;
         height: 30vh;
     }
+   span{ 
+    background-color: red;
+    animation-name: example;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    from {background-color: yellow;}
+    to {background-color: red;}
+  }
 }
 
 
@@ -194,6 +205,18 @@ body>footer {
     background-color: #8B0000;
     height: 5.6vh;
 }
+span{ 
+    background-color: red;
+    animation-name: example;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    from {background-color: yellow;}
+    to {background-color: red;}
+  }
+
 
 
 /* Grotere tablets, laptop en smalle schermen min 769px and max 1279px */
