@@ -1,0 +1,173 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0 auto;
+}
+
+
+/* Basis Responsive indeling devices */
+
+
+/* smallere telefoon 0-480px */
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #92C5EB;
+    }
+    main {
+        min-height: 88.9vh;
+    }
+    main.show-small {
+        max-width: 98vw;
+    }
+    body>header {
+        background-color: green;
+    }
+    header>h1 {
+        color: #8B0000;
+        text-align: center;
+    }
+    #error {
+        display: none;
+    }
+    footer>h1 {
+        color: green;
+        text-align: center;
+    }
+    body>footer {
+        background-color: #8B0000;
+        height: 30vh;
+    }
+    main>h1 {
+        text-align: center;
+        margin-top: 5vh;
+    }
+    main>p {
+        background-color: green;
+        margin-top: 5vh;
+        margin-left: 30vw;
+        width: 40vw;
+        color: #8B0000;
+        border-radius: 5%;
+    }
+    main>section {
+        background-color: green;
+        margin-right: 30vw;
+        margin-left: 30vw;
+        border-radius: 5%;
+    }
+    main>section>ol>li {
+        margin-top: 5vh;
+    }
+    main>img {
+        width: 60vw;
+        margin-top: 10vh;
+        margin-left: 20vw;
+        border-radius: 50%;
+    }
+}
+
+
+/* Tablets en breedere telefoons min 481px and max 768px */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: #92C5EB;
+    }
+    main {
+        min-height: 89vh;
+    }
+    main.show-small {
+        max-width: 98vw;
+    }
+    body>header {
+        background-color: green;
+    }
+    header>h1 {
+        color: #8B0000;
+        text-align: center;
+    }
+    body>main>section>article>p {
+        font-size: 25px;
+    }
+    #error {
+        display: none;
+    }
+    main>h1 {
+        text-align: center;
+        margin-top: 5vh;
+    }
+    main>p {
+        background-color: green;
+        margin-top: 5vh;
+        margin-left: 30vw;
+        width: 40vw;
+        color: #8B0000;
+        border-radius: 5%;
+    }
+    main>section {
+        background-color: green;
+        margin-right: 30vw;
+        margin-left: 30vw;
+        border-radius: 5%;
+    }
+    main>section>ol>li {
+        margin-top: 5vh;
+    }
+    main>img {
+        width: 60vw;
+        margin-top: 10vh;
+        margin-left: 20vw;
+        border-radius: 50%;
+    }
+}
+
+footer>h1 {
+    color: green;
+    text-align: center;
+}
+
+body>footer {
+    background-color: #8B0000;
+    height: 5.6vh;
+}
+
+
+/* Grotere tablets, laptop en smalle schermen min 769px and max 1279px */
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .show-small {
+        display: none;
+    }
+    #error {
+        display: block;
+        background-color: red;
+        margin-top: 50vh;
+    }
+    body {
+        background-color: black;
+    }
+    body>section>img {
+        display: none;
+    }
+}
+
+
+/* Grotere desktops en schermen min 1280px */
+
+@media screen and (min-width: 1280px) {
+    .show-small {
+        display: none
+    }
+    #error {
+        display: block;
+        background-color: red;
+        margin-top: 50vh;
+    }
+    body {
+        background-color: black;
+    }
+    body>section>img {
+        display: none;
+    }
+}

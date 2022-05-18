@@ -1,0 +1,7 @@
+p {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 3vh;
+}
