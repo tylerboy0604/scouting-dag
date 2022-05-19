@@ -23,9 +23,10 @@ window.addEventListener('load', demoDisplay);
 
 function login() {
     let pass = document.getElementById('login').value;
+    let user = document.getElementById('user').value
     let password = "geenleiding75";
-
-    if (pass == password) {
+    let username = 'leidingdag';
+    if (pass == password && user == username) {
         document.getElementById('answer-to-pass').innerHTML = 'logged in';
         document.getElementById("appear").style.display = "block";
         document.getElementById("appear1").style.display = "block";
