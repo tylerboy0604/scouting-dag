@@ -65,6 +65,11 @@
     main>ol>li {
         margin-left: 5vw;
     }
+    main>p {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 20px;
+    }
 
 }
 
@@ -120,7 +125,11 @@
     main>ol>li {
         margin-left: 5vw;
     }
-
+    main>p {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 30px;
+    }
 
 }
 
