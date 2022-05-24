@@ -57,6 +57,20 @@
     main>section>fieldset>details>img {
         width: 40vw;
     }
+    main>ol {
+        margin-top: 5vh;
+        background-color: green;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        border-radius: 5%;
+        
+    }
+    main>ol>li {
+        margin-left: 5vw;
+    }
+    main>p {
+        text-align: center;
+    }
 }
 
 
@@ -106,6 +120,21 @@
     }
     P {
         font-size: 27px;
+    }
+    main>ol {
+        margin-top: 5vh;
+        background-color: green;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        border-radius: 5%;
+        
+    }
+    main>ol>li {
+        margin-left: 5vw;
+    }
+
+    main>p {
+        text-align: center;
     }
 }
 
