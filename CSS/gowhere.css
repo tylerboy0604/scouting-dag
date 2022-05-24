@@ -1,7 +1,13 @@
-p {
-    margin-top: 5vh;
+section {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    row-gap: 3vh;
+    column-gap: 4vw;
+}
+
+button {
+    height: 3vh;
+    margin-top: 1vh;
+}
+
+Section>a {
+    margin-top: 1.5vh;
 }
